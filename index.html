@@ -26,39 +26,8 @@
   <meta name="application-name" content="CV Laura Ljungqvist">
   <meta name="msapplication-TileColor" content="#2d89ef">
   <meta name="theme-color" content="#2d89ef">
-
-  <style>
-
-  </style>
-
 </head>
 <body>
-
-<style>
-.modal-body.modal-img{
-  padding: 0px;
-}
-.portfolio-modal-img{
-  width: 100%;
-}
-.modal-content{
-  background-color: transparent;
-  border-radius: 2px;
-}
-
-.modal-header{
-  background-color: #FFF;
-  border-radius: 2px 2px 0px 0px;
-}
-.modal-body{
-  background-color: #FFF;
-  border-radius: 0px 0px 2px 2px;
-}
-.modal-footer{
-  background-color: transparent;
-  border: 0px;
-}
-</style>
 
   <!-- modal -->
   <div id="myModal" class="modal fade" role="dialog">
@@ -321,45 +290,29 @@
       <!-- container -->
       <div class="container">
 
+        <!-- about container -->
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <h3>About</h3>
+          <hr>
+          <p>Laura has been interested in technology since an early age, taught herself to code through early social media, and made her first website at age 14. She is a Dutch native, currently residing in Norrköping, Sweden.</p>
+          <p>Educated about design at the Minerva school for Fine Arts and Design in Groningen (Netherlands), and enjoys <!-- making both interfaces, informative and brand establishing websites, working with CSS and --> finding a balance between form and function, whilst making everything beautiful, organised and responsive.</p>
+          <p>Also a hobbyist blogger, photographer, cosplayer and gamer, with a curiosity for illustrations, architecture and videography. </p>
+        </div>
+        <!-- skills panel-->
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <h3>Skills</h3>
+          <hr>
+          <p><div class="skill pull-right"><span class="html5 pull-left">90% </span></div> HTML5</p>
+          <p><div class="skill pull-right"><span class="css3 pull-left">85%</span></div> CSS3</p>
+          <p><div class="skill pull-right"><span class="js pull-left">5%</span></div> Javascript</p>
+          <p><div class="skill pull-right"><span class="bootstrap pull-left">85%</span></div> Bootstrap</p>
+          <p><div class="skill pull-right"><span class="mdl pull-left">65%</span></div> Material Design Lite</p>
+          <p><div class="skill pull-right"><span class="wp pull-left">80%</span></div> Wordpress</p>
+          <p><div class="skill pull-right"><span class="adobe pull-left">75%</span></div> Adobe Suite</p>
+          <div class="gap"></div>
+        </div><!-- about container -->
 
-          <!-- about container -->
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <h3>About</h3>
-            <hr>
-            <p>Laura has been interested in technology since an early age, taught herself to code through early social media, and made her first website at age 14. She is a Dutch native, currently residing in Norrköping, Sweden.</p>
-            <p>Educated about design at the Minerva school for Fine Arts and Design in Groningen (Netherlands), and enjoys <!-- making both interfaces, informative and brand establishing websites, working with CSS and --> finding a balance between form and function, whilst making everything beautiful, organised and responsive.</p>
-            <p>Also a hobbyist blogger, photographer, cosplayer and gamer, with a curiosity for illustrations, architecture and videography. </p>
-          </div>
-          <!-- skills panel-->
-          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-            <h3>Skills</h3>
-            <hr>
-            <p><div class="skill pull-right"><span class="html5 pull-left">90% </span></div> HTML5</p>
-            <p><div class="skill pull-right"><span class="css3 pull-left">85%</span></div> CSS3</p>
-            <p><div class="skill pull-right"><span class="js pull-left">5%</span></div> Javascript</p>
-            <p><div class="skill pull-right"><span class="bootstrap pull-left">85%</span></div> Bootstrap</p>
-            <p><div class="skill pull-right"><span class="mdl pull-left">65%</span></div> Material Design Lite</p>
-            <p><div class="skill pull-right"><span class="wp pull-left">80%</span></div> Wordpress</p>
-            <p><div class="skill pull-right"><span class="adobe pull-left">75%</span></div> Adobe Suite</p>
-            <div class="gap"></div>
-          </div><!-- about container -->
-
-      <div class="clearfix"></div>
-
-      <style>
-      /* vertical list */
-  @media screen and (min-width: 767px) {
-    .list-group-item.split-list-item{
-      display: flex;
-    }
-    .split-list-item .list-group-item-heading{
-      width: 33%;
-    }
-    .split-list-item .list-group-item-text{
-      width: 66%;
-    }
-  }
-      </style>
+        <div class="clearfix"></div>
 
         <!-- panel list-group -->
         <div class="panel list-group" id="menu">
@@ -469,42 +422,6 @@
             </a>
           </div><!-- references panel-->
 
-          <style>
-          .portfolio-wrapper{
-            border-left: 1px solid rgba(0,0,0,0.12);
-            border-right: 1px solid rgba(0,0,0,0.12);
-          }
-          .portfolio-img{
-            width: 100%;
-            /*max-height: 175px;*/
-            margin-bottom: 5px;
-            border-left: 1px solid rgba(0,0,0,0.1);
-            border-top: 1px solid rgba(0,0,0,0.1);
-            border-radius: 2px;
-            /*-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-            /*filter: grayscale(100%);*/
-            -webkit-box-shadow: 2px 2px 1px 0px rgba(50, 50, 50, 0.42);
-            -moz-box-shadow:    2px 2px 1px 0px rgba(50, 50, 50, 0.42);
-            box-shadow:         2px 2px 1px 0px rgba(50, 50, 50, 0.42);
-          }
-          .portfolio-item{
-            cursor: pointer;
-            padding: 15px;
-          }
-          .portfolio-item:hover{
-            padding:5px;
-            padding-top: 15px;
-          }
-          .portfolio-img:hover{
-            /*max-height: 185px;*/
-            /*-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-            /*filter: grayscale(0%); */
-            -webkit-box-shadow: 5px 5px 3px 0px rgba(50, 50, 50, 0.21);
-            -moz-box-shadow:    5px 5px 3px 0px rgba(50, 50, 50, 0.21);
-            box-shadow:         5px 5px 3px 0px rgba(50, 50, 50, 0.21);
-          }
-          </style>
-
           <!-- portfolio panel-->
           <a class="list-group-item section-collapse" data-toggle="collapse" data-target="#collapse-5" data-parent="#menu">Portfolio <i class="fa fa-angle-down pull-right"></i></a>
           <div id="collapse-5" class="sublinks  collapse">
@@ -566,7 +483,6 @@
 
     <!-- push for footer -->
     <div class="push"></div><!-- push for footer -->
-
 
  </div><!-- wrapper -->
 
