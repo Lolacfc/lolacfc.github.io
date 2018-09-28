@@ -27,6 +27,31 @@ body {
 height: 50px;
 }
 
+/* modals */
+.modal-body.modal-img{
+  padding: 0px;
+}
+.portfolio-modal-img{
+  width: 100%;
+}
+.modal-content{
+  background-color: transparent;
+  border-radius: 2px;
+}
+
+.modal-header{
+  background-color: #FFF;
+  border-radius: 2px 2px 0px 0px;
+}
+.modal-body{
+  background-color: #FFF;
+  border-radius: 0px 0px 2px 2px;
+}
+.modal-footer{
+  background-color: transparent;
+  border: 0px;
+}
+
 /* banner */
 .banner{
   background: url('background-banner.png') no-repeat;
@@ -62,6 +87,7 @@ height: 50px;
   padding-right: 5px;
 }
 
+/* typography */
 h3{
   text-transform: uppercase;
   font-weight: bold;
@@ -142,4 +168,52 @@ border: 1px solid rgba(0,0,0,0.5);
 }
 .section-collapse span{
 
+}
+
+/* vertical list */
+@media screen and (min-width: 767px) {
+  .list-group-item.split-list-item{
+  display: flex;
+  }
+  .split-list-item .list-group-item-heading{
+  width: 33%;
+  }
+  .split-list-item .list-group-item-text{
+  width: 66%;
+  }
+}
+
+/* portfolio */
+.portfolio-wrapper{
+  border-left: 1px solid rgba(0,0,0,0.12);
+  border-right: 1px solid rgba(0,0,0,0.12);
+}
+.portfolio-img{
+  width: 100%;
+  /*max-height: 175px;*/
+  margin-bottom: 5px;
+  border-left: 1px solid rgba(0,0,0,0.1);
+  border-top: 1px solid rgba(0,0,0,0.1);
+  border-radius: 2px;
+  /*-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  /*filter: grayscale(100%);*/
+  -webkit-box-shadow: 2px 2px 1px 0px rgba(50, 50, 50, 0.42);
+  -moz-box-shadow:    2px 2px 1px 0px rgba(50, 50, 50, 0.42);
+  box-shadow:         2px 2px 1px 0px rgba(50, 50, 50, 0.42);
+}
+.portfolio-item{
+  cursor: pointer;
+  padding: 15px;
+}
+.portfolio-item:hover{
+  padding:5px;
+  padding-top: 15px;
+}
+.portfolio-img:hover{
+  /*max-height: 185px;*/
+  /*-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  /*filter: grayscale(0%); */
+  -webkit-box-shadow: 5px 5px 3px 0px rgba(50, 50, 50, 0.21);
+  -moz-box-shadow:    5px 5px 3px 0px rgba(50, 50, 50, 0.21);
+  box-shadow:         5px 5px 3px 0px rgba(50, 50, 50, 0.21);
 }
