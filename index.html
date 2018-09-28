@@ -69,7 +69,7 @@
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>
-  </div><!-- mfogwise agent modal -->
+  </div><!-- fogwise agent modal -->
 
   <!-- momentary bliss modal -->
   <div id="momentarybliss-modal" class="modal fade" role="dialog">
@@ -260,6 +260,27 @@
     </div>
   </div><!-- alternativhalsa modal -->
 
+  <!-- webshop modal -->
+  <div id="webshop-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Webshop</h4>
+        </div>
+        <div class="modal-body modal-img">
+          <img src="portfolio/webshop.png" class="portfolio-modal-img">
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div><!-- webshop modal -->
+
   <!-- wrapper -->
   <div id="wrapper">
     <!-- internal header -->
@@ -426,6 +447,10 @@
           <a class="list-group-item section-collapse" data-toggle="collapse" data-target="#collapse-5" data-parent="#menu">Portfolio <i class="fa fa-angle-down pull-right"></i></a>
           <div id="collapse-5" class="sublinks collapse">
             <div class="portfolio-wrapper">
+              <a class="portfolio-item col-ld-4 col-md-4 4col-sm-4 col-xs-12" data-toggle="modal" data-target="#webshop-modal">
+                <img src="portfolio/webshop-mini.png" class="portfolio-img img-responsive">
+                <center>Webshop</center>
+              </a>
               <a class="portfolio-item col-ld-4 col-md-4 4col-sm-4 col-xs-12" data-toggle="modal" data-target="#fogwise-modal">
                 <img src="portfolio/fogwise-mini.png" class="portfolio-img img-responsive">
                 <center>Fogwise (Admin)</center>
@@ -434,22 +459,22 @@
                 <img src="portfolio/fogwise-agent-mini.png" class="portfolio-img img-responsive">
                 <center>Fogwise (Agent)</center>
               </a>
+              <div class="clearfix"></div>
+              <!-- <a class="portfolio-item col-ld-4 col-md-4 4col-sm-4 col-xs-12" data-toggle="modal" data-target="#secrets-modal">
+                <img src="portfolio/secret-mini.png" class="portfolio-img img-responsive">
+                <center>Sexy Secrets</center>
+              </a> -->
+              <a class="portfolio-item col-ld-4 col-md-4 4col-sm-4 col-xs-12" data-toggle="modal" data-target="#tridentity-modal">
+                <img src="portfolio/tridentity-mini.png" class="portfolio-img img-responsive">
+                <center>Tridentity</center>
+              </a>
               <a class="portfolio-item col-ld-4 col-md-4 4col-sm-4 col-xs-12" data-toggle="modal" data-target="#momentarybliss-modal">
                 <img src="portfolio/momentary-mini.png" class="portfolio-img img-responsive">
                 <center>Momentary Bliss</center>
               </a>
-              <div class="clearfix"></div>
-              <a class="portfolio-item col-ld-4 col-md-4 4col-sm-4 col-xs-12" data-toggle="modal" data-target="#secrets-modal">
-                <img src="portfolio/secret-mini.png" class="portfolio-img img-responsive">
-                <center>Sexy Secrets</center>
-              </a>
               <a class="portfolio-item col-ld-4 col-md-4 4col-sm-4 col-xs-12" data-toggle="modal" data-target="#flowsik-modal">
                 <img src="portfolio/flowsik-mini.png" class="portfolio-img img-responsive">
                 <center>Flowsik</center>
-              </a>
-              <a class="portfolio-item col-ld-4 col-md-4 4col-sm-4 col-xs-12" data-toggle="modal" data-target="#tridentity-modal">
-                <img src="portfolio/tridentity-mini.png" class="portfolio-img img-responsive">
-                <center>Tridentity</center>
               </a>
               <div class="clearfix"></div>
               <!-- <a class="portfolio-item col-ld-4 col-md-4 4col-sm-4 col-xs-12" data-toggle="modal" data-target="#alternativ-modal">
@@ -507,4 +532,3 @@
   <script src="bootstrap.min.js"></script>
 </footer>
 </html>
-
