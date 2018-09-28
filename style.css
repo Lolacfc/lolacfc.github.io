@@ -60,6 +60,7 @@ height: 50px;
   background-size: cover;
   -o-background-size: cover;
   height:100%;
+  margin-bottom: 30px;
 }
 /* jumbotron */
 .jumbotron{
